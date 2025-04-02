@@ -2,6 +2,12 @@
 
 This Streamlit application predicts whether a user will purchase a product based on their age and estimated salary using a Support Vector Machine (SVM) model.
 
+## Deployed Application
+
+🚀 **Check out the live version of Email SMS Spam Classifier Model!** 🚀
+
+[![Live Application](https://img.shields.io/badge/Live%20Application-Click%20Here-brightgreen)](https://social-network-ads-purchase.streamlit.app/)
+
 ## Features
 
 - Interactive prediction interface
