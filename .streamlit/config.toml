@@ -1,0 +1,47 @@
+[theme]
+# Primary accent color for interactive elements
+primaryColor = "#FF4B4B"
+
+# Background color for the main content area
+backgroundColor = "#FFFFFF"
+
+# Background color used for the sidebar and most interactive widgets
+secondaryBackgroundColor = "#F0F2F6"
+
+# Color used for almost all text
+textColor = "#262730"
+
+# Font family for all text in the app, except code blocks
+font = "sans serif"
+
+[server]
+# Max size, in megabytes, for files uploaded with the file_uploader
+maxUploadSize = 200
+
+# If false, will attempt to open a browser window on start
+headless = true
+
+# Enables support for Cross-Origin Resource Sharing (CORS)
+enableCORS = false
+
+[browser]
+# Whether to send usage statistics to Streamlit
+gatherUsageStats = false
+
+[logger]
+# Level of logging: 'error', 'warning', 'info', or 'debug'
+level = "warning"
+
+[client]
+# Whether to enable st.cache.
+caching = true
+
+# If false, makes your Streamlit script not draw to a Streamlit app
+displayEnabled = true
+
+[runner]
+# Allows you to type into a running Streamlit command line
+magicEnabled = true
+
+# Hides any deprecation warnings
+fastRerenderEnabled = true 
